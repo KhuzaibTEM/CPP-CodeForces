@@ -33,8 +33,8 @@ int main(){
     REP(i,0,num.length() - 1){
         str s(1, num[i]);
         if (num[i] != '+') {
-        if  (i < num.length() - 1) ans += s + '+';
-        else ans += s;
+            if  (i < num.length() - 1) ans += s + '+';
+            else ans += s;
         }
     }
     cout << ans << endl;
