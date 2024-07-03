@@ -25,7 +25,7 @@ int main() {
     int lim;
     cin >> lim;
     REP(i,1,lim) {
-        ll total1 = 0, total2 = 0,size,temp,sum = 0;
+        ll size,temp,sum = 0;
         bool flag = false;
         map<ll,ll> m;
         m[0] = 1;
